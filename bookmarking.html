@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>port folio</title>
+</head>
+<body>
+    <center>
+    <h5>Port Folio</h5>
+    </center>
+    <center>
+    <a href="#home">Home</a>
+    &nbsp;&nbsp;
+    <a href="#about me">About me</a>
+    &nbsp;&nbsp;
+    <a href="#education">Education</a>
+    &nbsp;&nbsp;
+    <a href="#Skills">Skills</a>
+    &nbsp;&nbsp;
+    <a href="#my audio">My audio</a>
+    &nbsp;&nbsp;
+    <a href="#my video">My video</a>
+    &nbsp;&nbsp;
+    <a href="#contact">Contact</a>
+    </center>
+    <hr>
+    <h3 id="home"><u>Home</u></h3>
+    <div align="center">
+    <img src="./image.jpg" width="300">
+    <br>
+    Sangeetha Reddy
+    </div>
+    <h3 id="about me"><u>About me</u></h3>
+    <p>
+    Hi, I’m Sangeetha Reddy — a Computer Science graduate with a passion for solving problems and building creative solutions. I have a solid foundation in Python and basic knowledge of C and Java, along with a fundamental understanding of web development using HTML and CSS. I’m enthusiastic about learning new technologies, improving my skills, and applying them to real-world projects.
+    </p>
+    <h3 id="education"><u>Education</u></h3>
+    <table border="1" cellpadding="10" cellspacing="0" width="100%">
+        <tr align="center">
+            <td>S.no</td>
+            <td>Name</td>
+            <td>Class</td>
+            <td>CGPA</td>
+            <td>Year</td>
+        </tr>
+        <tr align="center ">
+            <td>1</td>
+            <td>Vaagdevi degree and pg college</td>
+            <td>B.Sc</td>
+            <td>7.89</td>
+            <td>2022-2025</td>
+        </tr>
+        <tr align="center">
+            <td>2</td>
+            <td>Narayana junior college</td>
+            <td>Intermediate</td>
+            <td>95.3</td>
+            <td>2020-2022</td>
+        </tr>
+        <tr align="center">
+            <td>3</td>
+            <td>Balaji techno school</td>
+            <td>10 class</td>
+            <td>77</td>
+            <td>2019-2020</td>
+        </tr>
+    </table>
+    <h3 id="Skills"><u>Skills</u></h3>
+    <b>Frontend Technologies:</b>Html ,CSS ,JavaScript
+    <br>
+    <b>Backend Technologies:</b>C ,Python
+    <br>
+    <b>Database:</b>My SQL
+    <br>
+    <b>Tools:</b>VS Code ,Git
+    <h3 id="my audio"><u>My audio</u></h3>
+    <audio width="400"  controls automute autoplay>
+        <source src="./songs/[iSongs.info] 02 - Parichayamila.mp3">
+    </audio>
+    <h3 id="my video">My video</h3>
+    <video width="600" controls>
+        <source src="./videos/video.mp4">
+    </video>
+   <h3 id="contact"><u>Contact</u></h3>
+    <b>Phone:</b>9392631517<br>
+    <b>E-Mail:</b><a href="">valugubellysangeethareddy@gmail.com</a>
+    <br>
+    <b>Linkedin:</b><a href="">www.linkedin.com/in/valugubelly-sangeetha-reddy-a1484a324</a>
+    <fieldset>
+        <legend>
+            Fill Details
+        </legend>
+        <form action="./submit.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">E-Mail</label>
+        <input type="text" id="email" name="email" required @gamil>
+        <br>
+        <label for="female" for="male">Gender:</label>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Female</label>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Male:</label>
+        <br>
+        <label for="number">Mobile number:</label>
+        <input type="text" id="number" name="number">
+        <br>
+         <label for="address"> Applicant's Address:</label>
+           <textarea name="address" id="address"></textarea>
+           <br>
+        <label for="course">Course:</label>
+        <select name="course" id="course">
+           <option value="select">---select---</option>
+           <option value="Frontend development">Frontend development</option>
+           <option value="Backend development">Backend development</option>
+           <option value="Database development">Database development</option>
+        <br>
+        <input type="submit">
+        </form>
+    </fieldset>
+</body>
+</html>
